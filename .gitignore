@@ -1,0 +1,6 @@
+contracts/broadcast/
+contracts/lib/
+contracts/cache/
+contracts/out/
+
+my-app/node_modules
