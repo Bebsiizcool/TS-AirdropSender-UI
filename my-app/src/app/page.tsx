@@ -1,8 +1,19 @@
-import AirDropform from "@/components/Airdropform"
+"use client"
+import HomeContent from "@/components/homecontent"
+import {useAccount} from "wagmi"
 export default function Home() {
+  const {isConnected} = useAccount()
  return (
   <div>
-    <AirDropform/>
+    {isConnected ?(
+      <div>
+        <HomeContent/>
+      </div>
+    ): (
+      <div>
+        <h1> please connect a wallet to view the content </h1>
+        </div>
+    )}
   </div>
- )
+ );
 }
