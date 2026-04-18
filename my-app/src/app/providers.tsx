@@ -2,7 +2,8 @@
 
 import {QueryClient, QueryClientProvider} from "@tanstack/react-query"
 import { WagmiProvider } from "wagmi"
-import { RainbowKitProvider, ConnectButton } from "@rainbow-me/rainbowkit"
+import { RainbowKitProvider, darkTheme} from "@rainbow-me/rainbowkit"
+import { anvil } from "wagmi/chains"
 import {type ReactNode} from "react"
 import config from "@/rainbowkitconfig"
 import {useState} from "react"
@@ -14,7 +15,7 @@ export function Providers(props: {children: ReactNode}){
     return(
         <WagmiProvider config={config}>
             <QueryClientProvider client={queryClient}>
-            <RainbowKitProvider>
+            <RainbowKitProvider >
                 
                  {props.children}
                  </RainbowKitProvider>

@@ -18,9 +18,9 @@ export default function InputField({
   onChange,
 }: InputFieldProps) {
   return (
-    <div className="flex flex-col gap-2 w-full">
+    <div className="flex flex-col gap-2 w-full text-white-300">
       {/* Label */}
-      <label className="text-sm font-medium text-gray-700">
+      <label className="text-sm font-medium text-white-700">
         {label}
       </label>
 

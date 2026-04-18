@@ -3,6 +3,7 @@ import {Providers} from "./providers"
 import "./globals.css";
 import { ReactNode } from "react";
 import Header from "@/components/header";
+import { cookieToInitialState } from "wagmi"
 
 export const metadata: Metadata = {
   title: "Tsender",
