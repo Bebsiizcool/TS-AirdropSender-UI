@@ -31,8 +31,8 @@ export const chainsToTSender: ContractsConfig = {
         no_check: "0x5FbDB2315678afecb367f032d93F642f64180aa3",
     },
     11155111: {
-        tsender: "0xa27c5C77DA713f410F9b15d4B0c52CAe597a973a",
-        no_check: "0xa27c5C77DA713f410F9b15d4B0c52CAe597a973a",
+        tsender: "0xaD5EB95FB4fA19A514942B6a3270FDc093A216DC",
+        no_check: "0xaD5EB95FB4fA19A514942B6a3270FDc093A216DC",
     }
 }
 

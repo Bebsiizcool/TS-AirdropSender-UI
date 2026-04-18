@@ -5,7 +5,7 @@ import Image from "next/image"
 
 export default function Header() {
   return (
-    <div className="w-full px-65 pt-4 z-[99999] relative mt-6" style={{ background: 'transparent' }}>
+    <div className="w-full px-65 pt-4 z-[99999] relative mt-5" style={{ background: 'transparent' }}>
       <div
         className="flex items-center justify-between px-6 py-3 rounded-xl"
         style={{ background: '#70204c' }}
@@ -22,11 +22,11 @@ export default function Header() {
 
         {/* Nav Links */}
         <nav className="flex items-center gap-8">
-          <a href="#" className="text-white-400 text-xs font-semibold tracking-widest uppercase hover:text-gray-400 transition-colors">
-            Community
+          <a href="https://github.com/Bebsiizcool" target="_blank" className="text-white-400 text-xs font-semibold tracking-widest uppercase hover:text-gray-400 transition-colors">
+            GitHub
           </a>
-          <a href="#" className="text-white-400 text-xs font-semibold tracking-widest uppercase hover:text-gray-400 transition-colors">
-            Ecosystem
+          <a href="https://github.com/Bebsiizcool/TS-AirdropSender-UI/blob/main/README.md" target="_blank" className="text-white-400 text-xs font-semibold tracking-widest uppercase hover:text-gray-400 transition-colors">
+            Docs
           </a>
           <div className="flex items-center gap-1 text-white-400 text-xs font-semibold tracking-widest uppercase cursor-pointer hover:text-gray-400 transition-colors">
             Developers <span className="text-xs">▾</span>
