@@ -6,7 +6,7 @@ import Header from "@/components/header";
 import { cookieToInitialState } from "wagmi"
 
 export const metadata: Metadata = {
-  title: "Tsender",
+  title: "Tsender Airdrop",
 };
 
 export default function RootLayout(props: {children: ReactNode}){
