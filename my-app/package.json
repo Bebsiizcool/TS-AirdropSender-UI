@@ -39,6 +39,7 @@
     "@types/node": "^20.12.10",
     "@types/react": "^18.3.1",
     "@types/react-dom": "^18.3.0",
+    "@types/three": "^0.184.0",
     "@vitest/coverage-v8": "^3.0.5",
     "@wagmi/cli": "latest",
     "bufferutil": "^4.0.8",
